@@ -1,0 +1,6 @@
+@Exploria.CodeChallenge.Weather.WebApi_HostAddress = http://localhost:5147
+
+GET {{Exploria.CodeChallenge.Weather.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Core", "01.Core", "{3D964D88-D978-41C0-B335-CA667E32A84F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrustructure", "02.Infrustructure", "{13D4741B-D670-4FF7-8C1F-5F5A8D8204DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{590D13B1-3B30-433F-BFE3-1FD4EEAB2977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00053627-7C7A-4087-AE01-C062DEAA2D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Endpoint", "03.Endpoint", "{98EDF16C-306D-43D6-9282-97EEB079DB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploria.CodeChallenge.Weather.Application", "src\01.Core\Exploria.CodeChallenge.Weather.Application\Exploria.CodeChallenge.Weather.Application.csproj", "{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploria.CodeChallenge.Weather.Domain", "src\01.Core\Exploria.CodeChallenge.Weather.Domain\Exploria.CodeChallenge.Weather.Domain.csproj", "{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploria.CodeChallenge.Weather.Infrustructure", "src\02.Infrustructure\Exploria.CodeChallenge.Weather.Infrustructure\Exploria.CodeChallenge.Weather.Infrustructure.csproj", "{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploria.CodeChallenge.Weather.Persistance", "src\02.Infrustructure\Exploria.CodeChallenge.Weather.Persistance\Exploria.CodeChallenge.Weather.Persistance.csproj", "{D6136C24-6764-49CC-84B2-0C074925EB26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploria.CodeChallenge.Weather.WebApi", "src\03.Endpoint\Exploria.CodeChallenge.Weather.WebApi\Exploria.CodeChallenge.Weather.WebApi.csproj", "{3DD697BD-6753-461C-9F82-A480CFF3EE50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6136C24-6764-49CC-84B2-0C074925EB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6136C24-6764-49CC-84B2-0C074925EB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6136C24-6764-49CC-84B2-0C074925EB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6136C24-6764-49CC-84B2-0C074925EB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD697BD-6753-461C-9F82-A480CFF3EE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD697BD-6753-461C-9F82-A480CFF3EE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD697BD-6753-461C-9F82-A480CFF3EE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD697BD-6753-461C-9F82-A480CFF3EE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D964D88-D978-41C0-B335-CA667E32A84F} = {590D13B1-3B30-433F-BFE3-1FD4EEAB2977}
+		{13D4741B-D670-4FF7-8C1F-5F5A8D8204DE} = {590D13B1-3B30-433F-BFE3-1FD4EEAB2977}
+		{98EDF16C-306D-43D6-9282-97EEB079DB9F} = {590D13B1-3B30-433F-BFE3-1FD4EEAB2977}
+		{3DCEF801-EEB8-4547-BEC1-7BBEE8A73D90} = {3D964D88-D978-41C0-B335-CA667E32A84F}
+		{49EEAECC-93B9-44DC-8AE6-3E7C5CBDE3B3} = {3D964D88-D978-41C0-B335-CA667E32A84F}
+		{121D5D6E-DFF8-4C50-A6BE-8CCBE301E1F0} = {13D4741B-D670-4FF7-8C1F-5F5A8D8204DE}
+		{D6136C24-6764-49CC-84B2-0C074925EB26} = {13D4741B-D670-4FF7-8C1F-5F5A8D8204DE}
+		{3DD697BD-6753-461C-9F82-A480CFF3EE50} = {98EDF16C-306D-43D6-9282-97EEB079DB9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67DC869B-0256-4A22-A54E-101157C71695}
+	EndGlobalSection
+EndGlobal
