@@ -6,6 +6,5 @@ using System.Threading.Tasks;
 
 namespace Exploria.CodeChallenge.Weather.Application.Provider.Meteorology;
 
-public class MeteorologyInquiryRequest
-{
-}
+public record MeteorologyInquiryRequest();
+

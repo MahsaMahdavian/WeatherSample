@@ -1,3 +1,7 @@
+using Exploria.CodeChallenge.Weather.Infrustructure;
+using Exploria.CodeChallenge.Weather.Infrustructure.Provider;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,9 +11,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//builder.RegisterHTTPClient<MeteorologyInquiryProvider>((p, client) =>
+//{
+//  //  var options = p.GetRequiredService<IOptions<UrlOption>>();
+//    client.BaseAddress = builder.Configuration.GetSection("BaseUrlProvider").to;
+//});
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
