@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exploria.CodeChallenge.Weather.Application.Provider.Meteorology;
+namespace Exploria.CodeChallenge.Weather.Application;
 
-public record MeteorologyInquiryRequest();
-
+public class AssemblyMarker
+{
+}

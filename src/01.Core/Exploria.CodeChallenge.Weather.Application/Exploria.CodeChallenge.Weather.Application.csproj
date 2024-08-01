@@ -5,5 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Specification" Version="8.0.0" />
+		<PackageReference Include="MediatR" Version="12.4.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Exploria.CodeChallenge.Weather.Domain\Exploria.CodeChallenge.Weather.Domain.csproj" />
+	</ItemGroup>
 </Project>

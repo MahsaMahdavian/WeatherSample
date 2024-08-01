@@ -8,4 +8,5 @@ namespace Exploria.CodeChallenge.Weather.Application.Provider.Meteorology;
 
 public interface IMeteorologyInquiryProvider
 {
+   Task<MeteorologyInquiryResponse> GetWatherInfo(CancellationToken cancellationToken);
 }
