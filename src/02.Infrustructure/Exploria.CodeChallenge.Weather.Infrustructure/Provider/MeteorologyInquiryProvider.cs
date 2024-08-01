@@ -28,6 +28,7 @@ public class MeteorologyInquiryProvider : IMeteorologyInquiryProvider
         try
         {
             var uri = new Uri($"{_config.BaseUrl}?latitude={_config.latitude}&longitude={_config.longitude}&hourly={_config.hourly}");
+            _httpClient.Timeout = TimeSpan.FromSeconds(5);
             response = await _httpClient.GetAsync(uri, cancellationToken);
             var content = await response.Content.ReadAsStringAsync(cancellationToken);
             response.EnsureSuccessStatusCode();
