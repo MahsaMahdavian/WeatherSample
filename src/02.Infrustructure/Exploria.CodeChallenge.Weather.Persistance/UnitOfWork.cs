@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Exploria.CodeChallenge.Weather.Persistance;
 
-internal sealed class UnitOfWork : IDbContext
+public sealed class UnitOfWork : IDbContext
 {
     private readonly DataBaseContext _dbContext;
 
@@ -48,8 +48,6 @@ internal sealed class UnitOfWork : IDbContext
     {
         return  _dbContext.Weathers
             .OrderByDescending(e => e.Id)
-            .FirstOrDefault();
-                    
-     
+            .FirstOrDefault();                      
     }
 }

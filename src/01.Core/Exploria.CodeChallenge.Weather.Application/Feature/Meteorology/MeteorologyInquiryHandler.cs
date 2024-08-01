@@ -1,16 +1,8 @@
-﻿using Exploria.CodeChallenge.Weather.Application.Exceptions;
-using Exploria.CodeChallenge.Weather.Application.Provider.Meteorology;
+﻿using Exploria.CodeChallenge.Weather.Application.Provider.Meteorology;
 using Exploria.CodeChallenge.Weather.Domain.Contracts;
 using Exploria.CodeChallenge.Weather.Domain.Entities;
 using MediatR;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exploria.CodeChallenge.Weather.Application.Feature.Meteorology;
 

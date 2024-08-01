@@ -13,11 +13,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\02.Infrustructure\Exploria.CodeChallenge.Weather.Infrustructure\Exploria.CodeChallenge.Weather.Infrustructure.csproj" />
+    <ProjectReference Include="..\..\02.Infrustructure\Exploria.CodeChallenge.Weather.Persistance\Exploria.CodeChallenge.Weather.Persistance.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="MiddleWare\" />
-    <Folder Include="NewFolder\" />
   </ItemGroup>
 
 </Project>

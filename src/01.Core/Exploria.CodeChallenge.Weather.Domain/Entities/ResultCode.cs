@@ -28,4 +28,5 @@ public class ResultCode
     public static ResultCode ProviderResponseError => new(5517, nameof(ProviderResponseError), "عدم امکان سرویس دهی");
     public static ResultCode Failure => new(3500, nameof(Failure), "عملیات با شکست مواجه شد");
     public static ResultCode TimeOut => new(3500, nameof(TimeOut), "مدت زمان بیش از مورد انتظار است");
+    public static ResultCode Success => new(0, nameof(Success), "عملیات با موفقیت انجام شد");
 }

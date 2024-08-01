@@ -8,7 +8,7 @@ namespace Exploria.CodeChallenge.Weather.Infrustructure.Provider.Contracts;
 
 public class MeteorologyConfig
 {
-    public const string Position = "Providers:Wallet";
+    public const string Position = "Providers:Meteorology";
     public string BaseUrl { get; set; }
     public double latitude { get; set; }
     public int longitude { get; set; }
